@@ -8714,7 +8714,7 @@ a {
 }
 @media (min-width: 768px) {
   .star.star-1 {
-    left: 80%;
+    left: 0;
     top: 50%;
     right: unset;
   }

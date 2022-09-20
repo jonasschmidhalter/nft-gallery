@@ -25,10 +25,9 @@
     right: 5%;
 
     @include media-breakpoint-up(md) {
-      left: 80%;
+      left: 0;
       top: 50%;
       right: unset;
-
     }
     svg {
       width: calc(var(--star-width) * 1);
