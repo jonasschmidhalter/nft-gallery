@@ -20,9 +20,13 @@ Pull the project and run:
 npm install
 ```
 
-Compile the SCSS with:
+Compile the SCSS to uncompressed CSS with:
 ```sh
 npm run sass-dev
+```
+For production use: compile the SCSS to compressed CSS with:
+```sh
+npm run sass-prod
 ```
 
 ### Customization
