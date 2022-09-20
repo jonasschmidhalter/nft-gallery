@@ -31,7 +31,7 @@ Customize Colors and Fonts in the following file: `/assets/scss/base/_variables.
 
 For custom Fonts, add them to the file:  `/assets/scss/base/_fonts.scss` (best with an @import statement)
 
-### Contnet
+### Content
 
 Add your content directly in the HTML file `index.html`
 
