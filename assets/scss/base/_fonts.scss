@@ -1,3 +1,4 @@
+@use "../base/variables" as *;
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:ital@1&display=swap');
 
 .font-sans {
@@ -6,4 +7,5 @@
 .font-serif {
   font-family: var(--fontSecondary);
   font-weight: 500 !important;
+  font-style: italic;
 }

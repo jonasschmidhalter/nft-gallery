@@ -2,8 +2,10 @@
 
 body, html {
   color: var(--text-color);
+  font-family: var(--fontPrimary);
+  font-weight: 500;
+  font-style: normal;
 }
-
 main {
   position: relative;
   z-index: 1;
