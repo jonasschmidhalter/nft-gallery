@@ -1,0 +1,199 @@
+@use "../base/variables" as *;
+@use "../vendor/bootstrap" as *;
+
+:root {
+  --bs-backdrop-opacity: .8;
+}
+
+body.modal-open {
+
+  main {
+    filter: blur(15px);
+  }
+}
+
+.modal {
+
+  .modal-dialog {
+    position: relative;
+    max-width: 320px;
+    margin: 0 auto;
+
+    @include media-breakpoint-up(sm) {
+      max-width: 750px;
+    }
+    @include media-breakpoint-up(lg) {
+      max-width: 830px;
+    }
+  }
+
+  .modal-close {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0;
+    padding: 1rem;
+    border-radius: 50%;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity .15s ease-in-out;
+    background-color: #FF3A3A;
+    z-index: 101;
+
+    img {
+      top: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      left: 50%;
+    }
+  }
+
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    border: 0;
+    padding: 0;
+  }
+
+  .modal-content {
+    color: var(--text-color);
+  }
+
+  .modal-single-item {
+    padding: 15px;
+
+    @include media-breakpoint-up(sm) {
+      padding: 30px;
+    }
+  }
+
+  .modal-body {
+    margin-top: 30px;
+    text-align: center;
+
+    @include media-breakpoint-up(sm) {
+      text-align: left;
+    }
+  }
+
+  &__title {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+    }
+    @include media-breakpoint-up(lg) {
+      font-size: 2rem;
+    }
+  }
+
+  &__meta {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    @include media-breakpoint-up(sm) {
+      display: flex;
+      text-align: left;
+    }
+
+    .price {
+      padding-left: 30px;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 15px;
+      font-weight: 700;
+
+      @include media-breakpoint-up(sm) {
+        margin-bottom: 0;
+      }
+
+      &:before {
+        content: '';
+        background-image: url("../../images/eth.svg");
+        background-size: contain;
+        width: 30px;
+        height: 1.5em;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+
+  .modal-media {
+    max-height: 400px;
+
+    img, video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+      max-height: 400px;
+    }
+  }
+
+  .modal-content {
+    margin-top: 100px;
+    background-color: var(--modal-background-color);
+    border-radius: 20px;
+
+    @include media-breakpoint-up(md) {
+      border-radius: 40px;
+    }
+    @include media-breakpoint-up(xl) {
+      border-radius: 60px;
+    }
+  }
+
+  .modal-controls {
+
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+    &__prev,
+    &__next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 80px;
+      height: 80px;
+      border: 0;
+      padding: 1rem;
+      border-radius: 50%;
+      opacity: 1;
+      cursor: pointer;
+      transition: opacity .15s ease-in-out;
+      background-color: var(--color-primary);
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10000;
+
+      img {
+        width: 10px;
+      }
+    }
+
+    &__prev {
+      left: -120px;
+    }
+
+    &__next {
+      right: -120px;
+    }
+  }
+}
+.modal-backdrop.show {
+  opacity: .8 !important;
+}

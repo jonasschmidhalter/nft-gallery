@@ -1,0 +1,41 @@
+@use "../vendor/bootstrap" as *;
+@use "../base/variables" as *;
+
+h1 {
+  font-size: 78px;
+  color: var(--text-color);
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+  font-family: var(--fontPrimary);
+
+  @include media-breakpoint-down(sm) {
+
+    .font-serif {
+      font-size: 60px;
+      line-height: 90px;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 96px;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 128px;
+  }
+  img {
+    max-height: 90px;
+    max-width: 140px;
+    border-radius: 10px;
+    margin-right: 15px;
+
+    @include media-breakpoint-up(md) {
+      max-height: 160px;
+      max-width: unset;
+      margin-right: 10px;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}

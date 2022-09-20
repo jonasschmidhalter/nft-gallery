@@ -1,0 +1,31 @@
+
+:root {
+
+  // Color Palette
+  --background-color:   #0A0C0E;    // Main Background Color
+  --text-color:         #FFFFFF;    // Content Text Color
+  --color-primary:      #630EE1;    // Main Color
+  --color-secondary:    #00C9A5;    // Used for Links
+  --color-teritary:     #FF3A3A;    // Used for Stars
+
+  // Modal
+  --modal-background-color: #101115;
+
+  // Font Family
+  --fontPrimary:        'PT Sans', sans-serif;  // Primary Font
+  --fontSecondary:      'PT Serif', serif;      // Secondary Font
+
+  // Settings
+  --radius-md:          30px;       // Border Radius Medium
+  --radius-lg:          40px;       // Border Radius Large
+}
+
+
+// Bootstrap Overrides
+:root {
+  --bs-body-font-family: var(--fontPrimary);
+  --bs-body-color: var(--text-color);
+  --bs-nav-link-color: var(--text-color);
+  --bs-nav-link-hover-color: var(--text-color);
+  --bs-backdrop-opacity: .9 !important;
+}

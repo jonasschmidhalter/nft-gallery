@@ -1,0 +1,52 @@
+@use "../base/utils" as *;
+@use "../vendor/bootstrap" as *;
+
+body, html, .ui-page {
+  background-color: var(--background-color) !important;
+}
+.intro-badge {
+
+  @include media-breakpoint-down(xs) {
+    flex-basis: 100%;
+  }
+
+  .intro-badge-inner {
+    width: 100px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    height: 100%;
+    padding: 10px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+    @include media-breakpoint-up(md) {
+      width: 140px;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 150px;
+    }
+    @include media-breakpoint-down(sm) {
+      width: 200px;
+      height: 200px;
+      margin: 20px auto 80px;
+
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+.intro-text-inner {
+  color: var(--text-color);
+
+  a {
+    color: var(--color-secondary);
+  }
+  @include media-breakpoint-up(md) {
+    padding: 20px 30px;
+  }
+}

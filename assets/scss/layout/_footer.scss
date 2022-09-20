@@ -1,0 +1,11 @@
+@use "../base/utils" as *;
+
+.site-footer {
+  color: var(--text-color);
+  opacity: .6;
+
+  a {
+    color: var(--color-secondary);
+    opacity: 1;
+  }
+}

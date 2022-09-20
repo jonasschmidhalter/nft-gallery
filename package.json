@@ -1,0 +1,19 @@
+{
+  "name": "esg",
+  "version": "1.0.0",
+  "description": "ESG Static Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
+    "sass-prod": "sass --no-source-map --style=compressed assets/scss:assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.9"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}
