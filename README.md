@@ -46,7 +46,7 @@ To add new elements to your gallery, dubplicate the div with the class `galleryI
 .gallery__item-description  // Description of the NFT
 .gallery__item-link         // Link to the NFT
 
-.price                      // Price of the NFT
+.price                      // Price of the NFT in ETH
 .link-list                  // External Links to the NFT
 ```
 
