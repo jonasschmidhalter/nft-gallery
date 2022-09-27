@@ -10,21 +10,8 @@ $(document).ready(function() {
         itemTitle = item.find('.gallery__item-title').html();
         itemDescription = item.find('.gallery__item-description').html();
         itemImage = item.find('.gallery__item-media img').attr('src');
-        if (itemImage === undefined) {
-            let itemVideo = item.find('video');
-            let videoPoster = itemVideo.attr('poster');
-            let videoSrc = itemVideo.find('source').attr('src');
-
-            let video = $('.modal__video');
-            video.find('source').attr("src", videoSrc);
-            video.attr("poster", videoPoster);
-            video.load();
-            $('.modal-media video').removeClass('d-none');
-            $('.modal__image').attr('src', '').addClass('d-none');
-        } else {
-            $('.modal__image').attr('src', itemImage).removeClass('d-none');
-            $('.modal-media video').addClass('d-none');
-        }
+        let itemMedia = item.find('.gallery__item-media').html();
+        $('.modal-media').html(itemMedia);
         let itemLink = item.find('.gallery__item-link').attr('href');
         let itemMeta = item.find('.gallery__item-meta').html();
         $('.modal__title').html(itemTitle);

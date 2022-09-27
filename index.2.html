@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>ESG - Discover, collect and sell NFTs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/1.0.5/jquery.mobile-events.js"></script>
+</head>
+<body>
+<div class="bg-shape">
+  <div class="bg-shape-inner">
+    <img src="./images/bg-shape-t.png" alt="BG Shape"/>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="./images/logo.svg" alt="ESG Logo" width="100">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav justify-content-md-between">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" target="_blank">7808.eth</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- MAIN BEGIN -->
+<main>
+
+  <!-- CONTAINER BEGIN -->
+  <div class="container mt-5">
+    <div class="row justify-content-center position-relative">
+      <div class="col-12 col-xxl-10">
+        <div class="star-container">
+                    <span class="star star-1">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 0C16 0 18.4014 7.0877 21.6569 10.3431C24.9123 13.5986 32 16 32 16C32 16 24.9123 18.4014 21.6569 21.6569C18.4014 24.9123 16 32 16 32C16 32 13.5986 24.9123 10.3431 21.6569C7.0877 18.4014 0 16 0 16C0 16 7.0877 13.5986 10.3431 10.3431C13.5986 7.0877 16 0 16 0Z"
+                                  fill="var(--text-color)"/>
+                        </svg>
+                    </span>
+          <span class="star star-2">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 0C16 0 18.4014 7.0877 21.6569 10.3431C24.9123 13.5986 32 16 32 16C32 16 24.9123 18.4014 21.6569 21.6569C18.4014 24.9123 16 32 16 32C16 32 13.5986 24.9123 10.3431 21.6569C7.0877 18.4014 0 16 0 16C0 16 7.0877 13.5986 10.3431 10.3431C13.5986 7.0877 16 0 16 0Z"
+                                  fill="var(--color-secondary)"/>
+                        </svg>
+                    </span>
+          <span class="star star-3">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 0C16 0 18.4014 7.0877 21.6569 10.3431C24.9123 13.5986 32 16 32 16C32 16 24.9123 18.4014 21.6569 21.6569C18.4014 24.9123 16 32 16 32C16 32 13.5986 24.9123 10.3431 21.6569C7.0877 18.4014 0 16 0 16C0 16 7.0877 13.5986 10.3431 10.3431C13.5986 7.0877 16 0 16 0Z"
+                                  fill="var(--color-teritary)"/>
+                        </svg>
+                    </span>
+          <span class="star star-4">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 0C16 0 18.4014 7.0877 21.6569 10.3431C24.9123 13.5986 32 16 32 16C32 16 24.9123 18.4014 21.6569 21.6569C18.4014 24.9123 16 32 16 32C16 32 13.5986 24.9123 10.3431 21.6569C7.0877 18.4014 0 16 0 16C0 16 7.0877 13.5986 10.3431 10.3431C13.5986 7.0877 16 0 16 0Z"
+                                  fill="var(--text-color)"/>
+                        </svg>
+                    </span>
+        </div>
+        <h1>Discover <img src="./images/discover-img.png" alt="Discover Img"/> Collect <span class="font-serif">And Sell Rare</span>
+          <img src="./images/rare-img.png" alt="Rare Img"><span class="float-xl-end">NFTs</span></h1>
+        <div class="intro-text-outer mt-5 mt-md-0">
+          <div class="d-flex flex-wrap d-sm-flex flex-md-nowrap">
+            <div class="intro-badge order-1 order-md-0 text-center">
+              <div class="intro-badge-inner">
+                <img src="images/badge.svg" alt="Badge"/>
+              </div>
+            </div>
+            <p class="intro-text-inner order-0 order-md-1">
+              A collection of 1of1 Art Pieces from a collection of artists from around the world. Many of
+              these 1of1's have a physical print to claim and or have animation in the artwork. Many
+              1of1's were purchased on <a href="https://foundation.app">Foundation.app</a> supporting
+              Artists in a Web3 Decentralised fashion.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- ROW 1 -->
+    <div class="row">
+      <div class="col-12">
+        <h2 class="gallery__title pt-5"><span class="font-serif">East Side</span> Gallery 🔥</h2>
+      </div>
+    </div>
+    <!-- END OF ROW 1 -->
+
+
+    <!-- ROW 2 -->
+    <div class="row">
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+
+            <img src="https://f8n-production-collection-assets.imgix.net/0x803a74dB0a2cA3D732a2D1FA4FdcD796146EBA76/3/nft.gif?q=80&auto=compress&cs=srgb&max-w=1680&max-h=1680" alt="Elon TENZ"/>
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">Elon TENZ</h3>
+            <p class="gallery__item-author"><a href="https://foundation.app/@tenmen/tenmen/3" target="_blank">@tenmen</a></p>
+            <p class="d-none gallery__item-description">
+              What you like<br/>
+              If it's worth it<br/>
+              Never give up 🚀<br/>
+              The life of Elon TENZ
+            </p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0x803a74db0a2ca3d732a2d1fa4fdcd796146eba76/3" target="_blank">
+                      <img src="./images/opensea.svg" alt="Elon TENZ on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://foundation.app/@tenmen/tenmen/3" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="Elon TENZ on Foundation"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x803a74db0a2ca3d732a2d1fa4fdcd796146eba76/3" target="_blank">
+                      <img src="./images/eth-line.svg" alt="Elon TENZ on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+            <img src="https://f8n-production-collection-assets.imgix.net/0x803a74dB0a2cA3D732a2D1FA4FdcD796146EBA76/1/nft.gif?q=80&auto=compress&cs=srgb&max-w=1680&max-h=1680" alt="Pepe TENZ"/>
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">Pepe TENZ</h3>
+            <p class="gallery__item-author"><a href="https://foundation.app/@tenmen/tenmen/1" target="_blank">@tenmen</a></p>
+            <p class="d-none gallery__item-description">Balance play with PepeTENZ from TENVERSE and friends Heart, Snake, Dollar, Bitcoin, Ether, Diamond, Sun, Moon, Cloud and Stars.
+              This may be a prophesied mural from 6000 years ago.</p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0x803a74db0a2ca3d732a2d1fa4fdcd796146eba76/1" target="_blank">
+                      <img src="./images/opensea.svg" alt="Pepe TENZ on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://foundation.app/@tenmen/tenmen/1" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="Pepe TENZ on Foundation"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x803a74db0a2ca3d732a2d1fa4fdcd796146eba76/1" target="_blank">
+                      <img src="./images/eth-line.svg" alt="Pepe TENZ on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+            <img src="https://f8n-production-collection-assets.imgix.net/0x803a74dB0a2cA3D732a2D1FA4FdcD796146EBA76/2/nft.gif?q=80&auto=compress&cs=srgb&max-w=1680&max-h=1680" alt="Mickey TENZ"/>
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">Mickey TENZ</h3>
+            <p class="gallery__item-author"><a href="https://foundation.app/@tenmen/tenmen/2" target="_blank">@tenmen</a></p>
+            <p class="d-none gallery__item-description">Feel the sensation of your eyes on Mickey TENZ’s face, ears, hands and feet.<br/>
+              If you had to remove sight, hearing, touch, smell, and taste from all human senses, leaving only one sense, what would you choose?<br/>
+              The eyes are the channel of the soul. <br/>
+              Put something valuable in front of you.</p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0x803a74db0a2ca3d732a2d1fa4fdcd796146eba76/2" target="_blank">
+                      <img src="./images/opensea.svg" alt="Mickey TENZ on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://foundation.app/@tenmen/tenmen/2" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="Mickey TENZ on Foundation"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x803a74db0a2ca3d732a2d1fa4fdcd796146eba76/2" target="_blank">
+                      <img src="./images/eth-line.svg" alt="Mickey TENZ on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+
+            <img src="https://f8n-production-collection-assets.imgix.net/0x803a74dB0a2cA3D732a2D1FA4FdcD796146EBA76/4/nft.gif?q=80&auto=compress&cs=srgb&max-w=1680&max-h=1680" alt="NIKE 🖤"/>
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">NIKE 🖤 TENMEN</h3>
+            <p class="gallery__item-author"><a href="https://foundation.app/@tenmen/tenmen/3" target="_blank">@tenmen</a></p>
+            <p class="d-none gallery__item-description">
+              NIKE 50th Anniversary !<br/>
+              Homage with respect 🙏<br/>
+              We are never done 🔥<br/>
+              If you truly love your dreams and make them come true, That dream has already become a reality from within and unfolds before your eyes.
+            </p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0x803a74db0a2ca3d732a2d1fa4fdcd796146eba76/4" target="_blank">
+                      <img src="./images/opensea.svg" alt="NIKE 🖤 TENMEN on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://foundation.app/@tenmen/tenmen/4" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="NIKE 🖤 TENMEN on Foundation"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x803a74db0a2ca3d732a2d1fa4fdcd796146eba76/4" target="_blank">
+                      <img src="./images/eth-line.svg" alt="NIKE 🖤 TENMEN on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+
+
+
+
+            <video autoplay loop playsinline muted
+                   poster="https://i.seadn.io/gae/Z69yRtwWFJH3g5K7QWVuvsMSb9_lDYb3oI6Evq1EN1GDmFoFDfyR_UTX_AAJoQ7B2gpKz9qQeyrdStA_65FwmV6C7cJE836JUpZgxg?w=500&auto=format">
+              <source src="https://assets.foundation.app/yh/4n/QmQiAMb81RxQxswxByyvwMCVWcxFSsxD9PkGeBGt3Fyh4n/nft.mp4"
+                      type="video/mp4">
+            </video>
+
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">Converse with El Salvador</h3>
+            <p class="gallery__item-author"><a href="https://foundation.app/@Vanches22033" target="_blank">@Vanches22033</a></p>
+            <p class="d-none gallery__item-description">
+              4K resolution 60 FPS<br/>
+              ...<br/>
+              This work contains a quote from Salvador Dali: "Art is a terrible disease, but we cannot live without it".<br/>
+              ...<br/>
+              In our time, art has penetrated our lives very strongly. Someone is delighted with this, but someone cannot distinguish "Malevich's Black Square" from a transformer box, painted black.<br/>
+              ...<br/>
+              Original work 210x297 mm. Ballpoint pen, gel pen, felt-tip pens, pencil's. Created in 2016. Converted to video in 2021.<br/>
+              ...<br/>
+              Collection "Early comprehension".<br/>
+              Project 2/21.<br/>
+            </p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0x3b3ee1931dc30c1957379fac9aba94d1c48a5405/45477" target="_blank">
+                      <img src="./images/opensea.svg" alt="Conversation with El Salvador on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://foundation.app/@Vanches22033/foundation/45477" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="Conversation with El Salvador on Foundation"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x3b3ee1931dc30c1957379fac9aba94d1c48a5405/45477" target="_blank">
+                      <img src="./images/eth-line.svg" alt="Conversation with El Salvador on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+            <img src="https://i.seadn.io/gae/4nlztyJL_yfoNXGV42xTmpXmbva3WhkE2k_FzqpCEFGSGdFjpjZQ91Zw1gbju7p63kJXUAlqbpkhqMDKPT1u3kwbbE7bUbn5QpyMhqs?auto=format&w=1000" alt="SkullCat - #5 (Animated)"/>
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">SkullCat - #5 (Animated)</h3>
+            <p class="gallery__item-author"><a href="https://foundation.app/@Digivatar/skat/" target="_blank">@Digivatar</a></p>
+            <p class="d-none gallery__item-description">A custom 1/1 hand-pixelated artwork by Digivatar<br/>
+              Only 999 will be minted. Only 49 Black Skats total.<br/>
+              Put something valuable in front of you.</p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0x057d936dfc7bba6281fcbe3c2f7f93e95e4d8fc9/6" target="_blank">
+                      <img src="./images/opensea.svg" alt="SkullCat - #5 (Animated) on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://foundation.app/@Digivatar/skat/6" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="SkullCat - #5 (Animated) on Foundation"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x803a74db0a2ca3d732a2d1fa4fdcd796146eba76/2" target="_blank">
+                      <img src="./images/eth-line.svg" alt="SkullCat - #5 (Animated) on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+    </div>
+    <!-- END OF ROW 3 -->
+
+
+    <!-- ROW 4 -->
+    <div class="row">
+      <div class="col-12">
+        <h2 class="gallery__title pt-5"><span class="font-serif">Metaverse Land</span> Gallery 🏗️</h2>
+      </div>
+    </div>
+    <!-- END OF ROW 4 -->
+
+    <!-- ROW 5 -->
+    <div class="row">
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+
+            <img src="https://img.seadn.io/files/0f6ce95385d21f5ec15c2e6f162e0b56.jpg?fit=max&w=1000"
+                 alt="Otherdeed for Otherside #11254"/>
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">Otherdeed #11254</h3>
+            <p class="gallery__item-author"><a href="https://opensea.io/collection/otherdeed" target="_blank">@Otherdeed for Otherside</a></p>
+            <p class="d-none gallery__item-description">
+              Otherdeed for Otherside #11254
+            </p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/11254" target="_blank">
+                      <img src="./images/opensea.svg" alt="Otherdeed for Otherside #11254 on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://looksrare.org/collections/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/11254" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="Otherdeed for Otherside #11254 on Looksrare"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258/11254" target="_blank">
+                      <img src="./images/eth-line.svg" alt="Otherdeed for Otherside #11254 on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+            <img src="https://i.seadn.io/gae/-BqLzAoroiy0NNl63fm9uPEwIP4cLkRfoudvHgau4RF_BtHkHSss2Aaa0AQ0T1lH0Xn2EnIqD7TNZqmA1wETZejrvTwAtva0pxXuIaM?auto=format&w=1000"
+                 alt="Arcade Land Large #2193"/>
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">Arcade Land Large #2193</h3>
+            <p class="gallery__item-author"><a href="https://opensea.io/collection/arcade-land" target="_blank">@Arcade Land</a></p>
+            <p class="d-none gallery__item-description">Arcade Land Large #2193</p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0x4a8c9d751eeabc5521a68fb080dd7e72e46462af/2193" target="_blank">
+                      <img src="./images/opensea.svg" alt="Arcade Land Large #2193 on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://looksrare.org/collections/0x4a8c9d751eeabc5521a68fb080dd7e72e46462af/2193" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="Arcade Land Large #2193 on Looksrare"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x4a8c9d751eeabc5521a68fb080dd7e72e46462af/2193" target="_blank">
+                      <img src="./images/eth-line.svg" alt="Arcade Land Large #2193 on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+            <img src="https://i.seadn.io/gae/Jsfqk5k6IsuqzJaA7y22095__6KyTgTTFDv5XWtHyuJnCLc4c5-UZzAysoDa_GdhSDMSIT02f0GrMVx1nKM2yXlaq11Hvx1mHs6E?auto=format&w=1000" alt="Arcade Land Large #2578"/>
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">Arcade Land Large #2578</h3>
+            <p class="gallery__item-author"><a href="https://opensea.io/collection/arcade-land" target="_blank">@Arcade Land</a></p>
+            <p class="d-none gallery__item-description">Arcade Land Large #2578</p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0x4a8c9d751eeabc5521a68fb080dd7e72e46462af/2578" target="_blank">
+                      <img src="./images/opensea.svg" alt="Arcade Land Large #2578 on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://looksrare.org/collections/0x4a8c9d751eeabc5521a68fb080dd7e72e46462af/2578" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="Arcade Land Large #2578 on looksrare"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x4a8c9d751eeabc5521a68fb080dd7e72e46462af/2578" target="_blank">
+                      <img src="./images/eth-line.svg" alt="Arcade Land Large #2578 on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+
+            <img src="https://i.seadn.io/gae/zBJR6BjAMZp0zksBlDzLMK7IxocwUdkSylSrRND6DwDblNSoTIPDFgU3B4HFHR-auemxL2K5t1QFfUqKbflukfi4GVBvaXivfU5L?auto=format&w=1000"
+                 alt="Meta Mansion #4012"/>
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">Meta Mansion #4012</h3>
+            <p class="gallery__item-author"><a href="https://opensea.io/collection/otherdeed" target="_blank">@Otherdeed for Otherside</a></p>
+            <p class="d-none gallery__item-description">
+              Meta Mansion #4012
+            </p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0x2dd3773401485fcff077a99e2f6a40c22ee6966e/4012" target="_blank">
+                      <img src="./images/opensea.svg" alt="Meta Mansion #4012 on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://looksrare.org/collections/0x2dd3773401485fcff077a99e2f6a40c22ee6966e/4012" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="Meta Mansion #4012 on Looksrare"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x2dd3773401485fcff077a99e2f6a40c22ee6966e/4012" target="_blank">
+                      <img src="./images/eth-line.svg" alt="Meta Mansion #4012 on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+
+            <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-scripts" src="https://apartments.webb.game/?apartment=7868" style="min-height: 380px;" width="100%"  height=="100%" frameborder="0"></iframe>
+
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">Medium Apartment 7868</h3>
+            <p class="gallery__item-author"><a href="https://opensea.io/collection/worldwidewebbland" target="_blank">@worldwidewebbland</a></p>
+            <p class="d-none gallery__item-description">Medium Apartment 7868</p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0xa1d4657e0e6507d5a94d06da93e94dc7c8c44b51/7868" target="_blank">
+                      <img src="./images/opensea.svg" alt="Medium Apartment 7868 on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://looksrare.org/collections/0x4a8c9d751eeabc5521a68fb080dd7e72e46462af/2193" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="Medium Apartment 78683 on Looksrare"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x4a8c9d751eeabc5521a68fb080dd7e72e46462af/2193" target="_blank">
+                      <img src="./images/eth-line.svg" alt="Medium Apartment 7868 on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+      <!-- ITEM -->
+      <div class="col-sm-6 col-md-4 galleryItem">
+        <div class="gallery__item">
+          <div class="gallery__item-media">
+            <video autoplay loop playsinline muted
+                   poster="https://i.seadn.io/gae/Awp8Duh7VdxI8I-LEgSl-ynt0hY6_pRxHsHkI6gwXOGASkvDKnLpjr_mrvAl0sDH6M01KT1grVrYwcHJ4yxD4WxggNDeRfRbnugcFA?w=500&auto=format">
+              <source src="https://openseauserdata.com/files/f4aa47b98776a3978d2688f1e31c0e86.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+          <div class="gallery__item-content">
+            <h3 class="gallery__item-title">Sake Barrel #2</h3>
+            <p class="gallery__item-author"><a href="https://opensea.io/collection/worldwidewebbitems" target="_blank">@worldwidewebbitems</a></p>
+            <p class="d-none gallery__item-description">Sake Barrel #2</p>
+            <div class="gallery__item-meta">
+              <div class="price">
+                <span>10.00 ETH</span>
+              </div>
+              <div class="links">
+                <ul class="link-list">
+                  <li>
+                    <a href="https://opensea.io/assets/ethereum/0x0812074e395b711910f2fba9f129078918ade855/317" target="_blank">
+                      <img src="./images/opensea.svg" alt="Sake Barrel #2 on OpenSea"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://looksrare.org/collections/0x0812074e395b711910f2fba9f129078918ade855/317" target="_blank">
+                      <img src="./images/ens-vision.svg" alt="Sake Barrel #2 on looksrare"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://etherscan.io/nft/0x0812074e395b711910f2fba9f129078918ade855/317" target="_blank">
+                      <img src="./images/eth-line.svg" alt="Sake Barrel #2 on Etherscan"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF ITEM -->
+
+    </div>
+    <!-- END OF ROW 6 -->
+
+  </div>
+  <!-- END OF CONTAINER -->
+
+</main>
+<!-- END OF MAIN -->
+
+<!-- DO NOT TOUCH -->
+<div class="modal fade modal-xl" id="singleItemModal" data-bs-backdrop="static" tabindex="-1"
+     aria-labelledby="singleItemModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Close">
+        <img src="images/close.svg" alt="Close"/>
+      </button>
+      <div class="modal-single-item">
+        <div class="modal-media text-center">
+          <img class="modal__image" src="" alt=""/>
+          <video class="modal__video" autoplay playsinline muted loop>
+            <source id="mp4video" src="" type="video/mp4"  />
+          </video>
+        </div>
+        <div class="modal-body">
+          <div class="modal-body">
+            <div class="modal__title"></div>
+            <div class="modal__description"></div>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <div class="modal__meta"></div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-controls">
+        <button class="modal-controls__prev">
+          <img src="images/arrow-left.svg" alt="Previous"/>
+        </button>
+        <button class="modal-controls__next">
+          <img src="images/arrow-right.svg" alt="Next"/>
+        </button>
+      </div>
+    </div>
+    <span class="star modal-star-1">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 0C16 0 18.4014 7.0877 21.6569 10.3431C24.9123 13.5986 32 16 32 16C32 16 24.9123 18.4014 21.6569 21.6569C18.4014 24.9123 16 32 16 32C16 32 13.5986 24.9123 10.3431 21.6569C7.0877 18.4014 0 16 0 16C0 16 7.0877 13.5986 10.3431 10.3431C13.5986 7.0877 16 0 16 0Z"
+                      fill="var(--text-color)"/>
+            </svg>
+        </span>
+    <span class="star modal-star-2">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 0C16 0 18.4014 7.0877 21.6569 10.3431C24.9123 13.5986 32 16 32 16C32 16 24.9123 18.4014 21.6569 21.6569C18.4014 24.9123 16 32 16 32C16 32 13.5986 24.9123 10.3431 21.6569C7.0877 18.4014 0 16 0 16C0 16 7.0877 13.5986 10.3431 10.3431C13.5986 7.0877 16 0 16 0Z"
+                      fill="var(--color-teritary)"/>
+            </svg>
+        </span>
+  </div>
+</div>
+<!-- END DO NOT TOUCH -->
+
+<!-- FOOTER SECTION -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+
+      <!-- UPDATE LINK AND TEXT -->
+      <div class="py-3 mt-5">© EastSideGallery.eth by <a href="https://7808.eth.limo/" target="_blank">7808.eth</a></div>
+      <!-- UPDATE -->
+      <div class="footer-inner py-3 mt-5">
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item">
+            <!-- UPDATE LINK -->
+            <a href="https://twitter.com/7808eth" target="_blank">
+              <!-- UPDATE -->
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.4106 4.81311C25.0021 4.99427 24.5822 5.14717 24.1531 5.2713C24.6611 4.69678 25.0484 4.02078 25.2849 3.28104C25.3379 3.11523 25.2829 2.93373 25.1466 2.82528C25.0105 2.71676 24.8214 2.70376 24.6715 2.79257C23.7603 3.33304 22.7771 3.72145 21.7463 3.94857C20.7078 2.9339 19.2975 2.35645 17.8395 2.35645C14.7618 2.35645 12.2579 4.86025 12.2579 7.93781C12.2579 8.18019 12.2733 8.42124 12.3036 8.65893C8.48458 8.32361 4.93407 6.4465 2.49594 3.45574C2.40905 3.34914 2.27519 3.29169 2.13815 3.30268C2.00102 3.31341 1.87781 3.39074 1.80853 3.50959C1.31403 4.35811 1.05261 5.32858 1.05261 6.31599C1.05261 7.66087 1.53277 8.93688 2.38095 9.93394C2.12305 9.84461 1.87278 9.73298 1.63392 9.60038C1.50568 9.52901 1.34917 9.5301 1.22177 9.60315C1.09429 9.6762 1.01436 9.81056 1.01101 9.95742C1.01042 9.98216 1.01042 10.0069 1.01042 10.032C1.01042 12.0394 2.09084 13.8468 3.74268 14.8318C3.60077 14.8177 3.45895 14.7971 3.31804 14.7702C3.17278 14.7424 3.02341 14.7933 2.92544 14.9041C2.82732 15.0148 2.79486 15.1692 2.84006 15.3101C3.45148 17.219 5.02566 18.6231 6.92869 19.0511C5.35032 20.0397 3.54534 20.5575 1.65052 20.5575C1.25515 20.5575 0.857522 20.5343 0.468361 20.4883C0.275038 20.4653 0.0901866 20.5794 0.0243478 20.7633C-0.0414909 20.9472 0.0282898 21.1523 0.192761 21.2577C2.62695 22.8184 5.44157 23.6434 8.33219 23.6434C14.0148 23.6434 17.5697 20.9637 19.5511 18.7157C22.0219 15.9127 23.439 12.2025 23.439 8.53656C23.439 8.38341 23.4367 8.22876 23.432 8.0746C24.4068 7.34014 25.2461 6.45128 25.9291 5.42965C26.0328 5.27448 26.0216 5.06942 25.9014 4.92659C25.7814 4.78367 25.5813 4.73746 25.4106 4.81311Z"
+                      fill="#545868"/>
+              </svg>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <!-- UPDATE LINK -->
+            <a href="https://github.com/7808eth" target="_blank">
+              <!-- UPDATE -->
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_105_544)">
+                  <path d="M8.67263 20.9252C8.67263 21.0325 8.55272 21.1185 8.40153 21.1185C8.22949 21.1346 8.10959 21.0487 8.10959 20.9252C8.10959 20.8178 8.22949 20.7319 8.38068 20.7319C8.53708 20.7157 8.67263 20.8017 8.67263 20.9252ZM7.05128 20.6835C7.01478 20.7909 7.11905 20.9144 7.27545 20.9466C7.411 21.0003 7.5674 20.9466 7.59868 20.8392C7.62996 20.7319 7.5309 20.6084 7.3745 20.56C7.23896 20.5224 7.08777 20.5761 7.05128 20.6835ZM9.35558 20.5922C9.20439 20.6298 9.10012 20.7319 9.11576 20.8554C9.1314 20.9627 9.26695 21.0326 9.42335 20.995C9.57454 20.9574 9.6788 20.8554 9.66316 20.748C9.64752 20.6459 9.50676 20.5761 9.35558 20.5922ZM12.786 0.0161133C5.55504 0.0161133 0.0236816 5.67025 0.0236816 13.1178C0.0236816 19.0727 3.6626 24.1684 8.86031 25.9618C9.52762 26.0853 9.76222 25.6611 9.76222 25.3121C9.76222 24.9792 9.74658 23.1428 9.74658 22.0152C9.74658 22.0152 6.09723 22.8206 5.33087 20.4151C5.33087 20.4151 4.73655 18.8525 3.88156 18.4498C3.88156 18.4498 2.6877 17.6068 3.96497 17.6229C3.96497 17.6229 5.2631 17.7303 5.97733 19.0082C7.11905 21.0809 9.03235 20.4849 9.77786 20.1305C9.89776 19.2713 10.2366 18.6753 10.612 18.3209C7.69773 17.988 4.7574 17.5531 4.7574 12.3876C4.7574 10.9109 5.15362 10.1699 5.98775 9.2249C5.85221 8.87588 5.40907 7.43684 6.1233 5.57897C7.21289 5.22995 9.72051 7.02875 9.72051 7.02875C10.7632 6.72806 11.884 6.57234 12.9945 6.57234C14.1049 6.57234 15.2258 6.72806 16.2685 7.02875C16.2685 7.02875 18.7761 5.22458 19.8657 5.57897C20.5799 7.44221 20.1368 8.87588 20.0012 9.2249C20.8354 10.1753 21.3463 10.9163 21.3463 12.3876C21.3463 17.5692 18.2756 17.9826 15.3614 18.3209C15.841 18.7451 16.2476 19.5506 16.2476 20.8124C16.2476 22.6219 16.232 24.861 16.232 25.3013C16.232 25.6504 16.4718 26.0746 17.1339 25.9511C22.3472 24.1684 25.8819 19.0727 25.8819 13.1178C25.8819 5.67025 20.0169 0.0161133 12.786 0.0161133ZM5.09106 18.5357C5.02328 18.5894 5.03892 18.7129 5.12755 18.8149C5.21096 18.9008 5.33087 18.9384 5.39864 18.8686C5.46642 18.8149 5.45078 18.6914 5.36215 18.5894C5.27874 18.5035 5.15883 18.4659 5.09106 18.5357ZM4.52801 18.1008C4.49152 18.1706 4.54365 18.2565 4.64792 18.3102C4.73134 18.3639 4.8356 18.3478 4.8721 18.2726C4.90859 18.2028 4.85646 18.1169 4.75219 18.0632C4.64792 18.031 4.56451 18.0471 4.52801 18.1008ZM6.21714 20.0123C6.13373 20.0821 6.16501 20.2432 6.28491 20.3452C6.40482 20.4687 6.55601 20.4849 6.62378 20.3989C6.69155 20.3291 6.66027 20.1681 6.55601 20.066C6.44131 19.9425 6.28491 19.9264 6.21714 20.0123ZM5.62282 19.223C5.5394 19.2767 5.5394 19.4163 5.62282 19.5398C5.70623 19.6633 5.84699 19.717 5.91477 19.6633C5.99818 19.5935 5.99818 19.4539 5.91477 19.3304C5.84178 19.2069 5.70623 19.1532 5.62282 19.223Z"
+                        fill="#545868"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_105_544">
+                    <rect width="26" height="26" fill="white"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+
+<!-- DO NOT TOUCH -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
+</html>
